@@ -1,0 +1,45 @@
+body{
+    background-color: #121212;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.ppt-title{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    color: white;
+}
+
+.video-player{
+    display: flex;
+    flex: 1;
+    height: 400px;
+    justify-content: center;
+    border: 1px solid whitesmoke;
+    margin-right: 0px;
+    
+}
+
+.direct-picture{
+    display: flex;
+    flex: 1;
+    width: 100%;
+}
+
+.player-search{
+    display: flex;
+    flex: 1;
+    justify-content:center;
+}
+
+.input-player-search{
+    display: flex;
+    width: 300px;
+    border: 5px solid white;
+    border-radius: 5px;
+}
+
+.action-selection{
+    color: whitesmoke;
+}
+
