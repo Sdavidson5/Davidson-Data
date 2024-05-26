@@ -43,3 +43,14 @@ body{
     color: whitesmoke;
 }
 
+.pass{
+    display: flex;
+    flex:2;
+    
+}
+.countBox {
+    border: 1px solid white;
+    padding: 5px;
+    display: inline-block;
+  }
+
