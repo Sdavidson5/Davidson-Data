@@ -1,7 +1,35 @@
 body{
     background-color: #121212;
-    margin-right: 0px;
-    margin-left: 0px;
+    margin:0;
+    height: 100%;
+}
+
+.logo{
+    display: flex;
+    flex:2;
+    margin-top: 20px;
+}
+
+.logo-pic{
+    display: flex;;
+    flex:1;
+    height: 50px;
+    border-radius: 25px;
+    margin-left: 15px;
+}
+
+.account-login{
+    display: flex;
+    flex: 1;
+    color:whitesmoke;
+    justify-content: right;
+    margin-right: 15px;
+}
+
+.title{
+    display: flex;
+    flex: 10;
+    margin-top:-30px;
 }
 .ppt-title{
     display: flex;
@@ -16,8 +44,7 @@ body{
     height: 400px;
     justify-content: center;
     border: 1px solid whitesmoke;
-    margin-right: 0px;
-    
+    margin-right: 0px;   
 }
 
 .direct-picture{
@@ -28,7 +55,7 @@ body{
 
 .player-search{
     display: flex;
-    flex: 1;
+    flex: 2;
     justify-content:center;
 }
 
@@ -39,18 +66,43 @@ body{
     border-radius: 5px;
 }
 
-.action-selection{
-    color: whitesmoke;
+.add-player{
+    display: flex;
+    width:20px;
+    color:black;
+    font-weight: bold;
+    font-size:15px;
+    justify-content: center;
+    align-items: center;
 }
 
-.pass{
+.bottom-nav{
     display: flex;
-    flex:2;
-    
+    flex:3;
+    margin-bottom: 0px;
 }
-.countBox {
-    border: 1px solid white;
-    padding: 5px;
-    display: inline-block;
-  }
+
+.video-clips{
+    display: flex;
+    flex:1;
+    background-color: green;
+    border: 5px solid white;
+    
+    height: 100px;
+
+}
+
+.player-action{
+    display: flex;
+    flex:1;
+    background-color:lightpink;
+    border: 5px solid white;
+}
+
+.notes{
+    display: flex;
+    flex:1;
+    background-color:red;
+    border: 5px solid white;
+}
 
