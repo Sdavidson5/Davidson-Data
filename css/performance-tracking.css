@@ -85,10 +85,37 @@ body{
 .video-clips{
     display: flex;
     flex:1;
-    background-color: green;
-    border: 5px solid white;
-    
     height: 100px;
+    flex-direction: column;
+}
+
+.clip-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clip-button-css{
+    display: flex;
+    justify-content: center;
+}
+
+.clip-savings{
+    display: flex;
+
+}
+
+.clips{
+    display: flex;
+    flex:1;
+    width: 50px; 
+    height: 50px; 
+    background-color: lightblue; 
+    border: 1px solid blue; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 
 }
 
