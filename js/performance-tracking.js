@@ -1,11 +1,10 @@
+const notes = [];
 
-function notesCollection() {
-    const inputElement = document.getElementsByClassName('input-notes-js');
-    const inputValue = inputElement.value;
-    let notes = [`${inputValue}`];
+function addToNotes(){
+    const inputElement = document.querySelector('.js-input-notes');
+    console.log(inputElement);
+    const note = inputElement.value;
 
-    for (let index = 0; index < notes.length; index++) {
-        const element = notes[index];
-        const html = `<p>${notes}</p>`;
-        }
+    notes.push(note);
+    console.log(notes)
 }
