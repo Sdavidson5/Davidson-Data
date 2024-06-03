@@ -119,14 +119,20 @@ body{
     align-items: center;
     justify-content: center;
     text-align: center;
-
 }
 
 .player-action{
     display: flex;
     flex:1;
-    background-color:lightpink;
+    background-color:black;
     border: 5px solid white;
+    flex-direction: row;
+}
+
+.player-action-column{
+    display: flex;
+    flex:1;
+    color:whitesmoke;
 }
 
 .notes{
