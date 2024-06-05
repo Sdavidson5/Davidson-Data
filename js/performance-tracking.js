@@ -1,4 +1,4 @@
-const notesList = ['Hendricken Soccer is the best'];
+const notesList = ['Hendricken Soccer'];
 
 renderNotesList();
 
@@ -7,23 +7,21 @@ function renderNotesList(){
 
     for (let i = 0; i < notesList.length; i++) {
         const notes = notesList[i];
-        const html = `<p>${notes}</p>`;
+        const html = `<div>${notes}</div>`;
         notesListHTML += html;
     }
-    console.log(notesListHTML);
 
-    document.querySelector(`.js-notes-list`).
-        innerHTML = notesListHTML;
-
+    document.getElementById('.js-notes-list')
+        .innerHTML = notesListHTML;
 }
+
 function addToNotes(){
-        const inputElement = document.querySelector(`.input-notes`);
+        const inputElement = document.getElementById('.input-notes');
         const note = inputElement.value;
 
         notesList.push(note);
-        console.log(notesList);
 
-        inputElement.value = ``;
+        inputElement.value = '';
 
         renderNotesList();
 }
