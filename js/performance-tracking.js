@@ -1,4 +1,4 @@
-const notesList = ['Hendricken Soccer'];
+/*const notesList = ['Hendricken Soccer'];
 
 renderNotesList();
 
@@ -24,6 +24,22 @@ function addToNotes(){
         inputElement.value = '';
 
         renderNotesList();
+}*/
+
+
+
+/*for (let index = 0; index <=10; index +=2) {
+    console.log(index);
+}*/
+
+let index = 0;
+
+function hello(){
+    while (index<=10) {
+    
+    console.log(index);
+    index  =  index +2;
+    }
 }
 
-
+hello()
