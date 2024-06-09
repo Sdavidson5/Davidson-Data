@@ -32,14 +32,14 @@ function addToNotes(){
     console.log(index);
 }*/
 
-let index = 0;
 
-function hello(){
-    while (index<=10) {
-    
-    console.log(index);
-    index  =  index +2;
+
+function addOne() {
+
+    const array = [1,2,3];
+    for (let i = 0; i < array.length; i++) {
+        const element = array[i];
     }
 }
 
-hello()
+addOne(array);
