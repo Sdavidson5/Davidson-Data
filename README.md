@@ -1,2 +1,4 @@
 # Davidson-Data
- Founding Titan
+Open-Source
+Creating a statistical analysis for soccer coaches crafted by professional coaches. 
+
