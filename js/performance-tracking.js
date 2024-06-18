@@ -32,9 +32,18 @@ function addToNotes(){
     console.log(index);
 }*/
 
+const array=[1,2,3];
+const num = 0;
 
+function addNum(array,num) {
+    for (let i= 0; i < array.length; i++) {
+        const element = array[i]+num;
+        
+        console.log(element)
+    }
+    
+}
 
-
-f
+addNum(array,5)
 
 

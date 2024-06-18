@@ -1,189 +1,188 @@
-body{
-    background-color: #121212;
-    margin:0px;
-    display:grid;
-    grid-template-rows: 3;
+body {
+  background-color: #121212;
+  margin: 0px;
+  display: grid;
+  grid-template-rows: 3;
 }
 
-.top-section{
-    display: flex;
+.top-section {
+  display: flex;
 }
 
-.logo{
-    display: 
-    margin-top: 20px;
+.logo {
+  display: flex;
+  margin-top: 20px;
 }
 
-.logo-pic{
-    display: flex;;
-    flex:1;
-    height: 50px;
-    border-radius: 25px;
-    margin-left: 15px;
+.logo-pic {
+  display: flex;
+  flex: 1;
+  height: 50px;
+  border-radius: 25px;
+  margin-left: 15px;
 }
 
-.account-login{
-    display: flex;
-    flex: 1;
-    color:whitesmoke;
-    justify-content: right;
-    margin-right: 15px;
+.account-login {
+  display: flex;
+  flex: 1;
+  color: whitesmoke;
+  justify-content: right;
+  margin-right: 15px;
 }
 
-.title{
-    display: flex;
-    flex: 10;
-    margin-top:-30px;
+.title {
+  display: flex;
+  flex: 10;
+  margin-top: -30px;
 }
-.ppt-title{
-    display: flex;
-    flex: 1;
-    justify-content: center;
-    color: white;
-}
-
-.middle-section{
-    display: grid;
+.ppt-title {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  color: white;
 }
 
-.video-player{
-    display: flex;
-    flex: 1;
-    height: 400px;
-    justify-content: center;
-    border: 1px solid whitesmoke;
-    margin-right: 0px;   
+.middle-section {
+  display: grid;
 }
 
-.direct-picture{
-    display: flex;
-    flex: 1;
-    width: 100%;
+.video-player {
+  display: flex;
+  flex: 1;
+  height: 400px;
+  justify-content: center;
+  border: 1px solid whitesmoke;
+  margin-right: 0px;
 }
 
-.player-search{
-    display: flex;
-    flex: 2;
-    justify-content:center;
-    background-color: black;
+.direct-picture {
+  display: flex;
+  flex: 1;
+  width: 100%;
 }
 
-.input-player-search{
-    display: flex;
-    width: 300px;
-    border: 5px solid white;
-    border-radius: 5px;
+.player-search {
+  display: flex;
+  flex: 2;
+  justify-content: center;
+  background-color: black;
 }
 
-.add-player{
-    display: flex;
-    width:20px;
-    color:black;
-    font-weight: bold;
-    font-size:15px;
-    justify-content: center;
-    align-items: center;
+.input-player-search {
+  display: flex;
+  width: 300px;
+  border: 5px solid white;
+  border-radius: 5px;
 }
 
-.bottom-section{
-    display: grid;
-}
-.bottom-nav{
-    display: flex;
-    flex:3;
-    margin-bottom: 0px;
-}
-
-.video-clips{
-    display: flex;
-    flex:1;
-    height: 100px;
-    flex-direction: column;
+.add-player {
+  display: flex;
+  width: 20px;
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+  justify-content: center;
+  align-items: center;
 }
 
-.clip-button{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
+.bottom-section {
+  display: grid;
+}
+.bottom-nav {
+  display: flex;
+  flex: 3;
+  margin-bottom: 0px;
 }
 
-.clip-button-css{
-    display: flex;
-    justify-content: center;
+.video-clips {
+  display: flex;
+  flex: 1;
+  height: 100px;
+  flex-direction: column;
 }
 
-.clip-savings{
-    display: flex;
-    background-color: black;
+.clip-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
 }
 
-.clips{
-    display: flex;
-    flex:1;
-    width: 50px; 
-    height: 50px; 
-    background-color: lightblue; 
-    border: 1px solid blue; 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+.clip-button-css {
+  display: flex;
+  justify-content: center;
 }
 
-.player-action{
-    display: flex;
-    flex:1;
-    background-color:black;
-    border: 5px solid white;
-    flex-direction: row;
+.clip-savings {
+  display: flex;
+  background-color: black;
 }
 
-.player-action-column{
-    display: flex;
-    flex:1;
-    color:whitesmoke;
+.clips {
+  display: flex;
+  flex: 1;
+  width: 50px;
+  height: 50px;
+  background-color: lightblue;
+  border: 1px solid blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
-.notes{
-    display: flex;
-    flex:1;
-    background-color:black;
-    flex-direction: column;
+.player-action {
+  display: flex;
+  flex: 1;
+  background-color: black;
+  border: 5px solid white;
+  flex-direction: row;
 }
 
-.notes-header{
-    color: whitesmoke;
-    display: flex;
-    flex: 1;
-    justify-content: center;
-    background-color:black;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    height: 10px;
+.player-action-column {
+  display: flex;
+  flex: 1;
+  color: whitesmoke;
 }
 
-.addition-section{
-    display: flex;
-    flex: 1;
-   justify-content: center;
+.notes {
+  display: flex;
+  flex: 1;
+  background-color: black;
+  flex-direction: column;
 }
 
-.input-notes{
-    display: inline-block;
-    justify-content: center;
-    border-radius: 5px;
+.notes-header {
+  color: whitesmoke;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  background-color: black;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  height: 10px;
 }
 
-.input-button{
-    justify-content: center;
-    display: inline-block;
+.addition-section {
+  display: flex;
+  flex: 1;
+  justify-content: center;
 }
 
-.stored-notes{
-    display: flex;
-    flex: 1;
-    color:white;
-    justify-content: center;
+.input-notes {
+  display: inline-block;
+  justify-content: center;
+  border-radius: 5px;
 }
 
+.input-button {
+  justify-content: center;
+  display: inline-block;
+}
+
+.stored-notes {
+  display: flex;
+  flex: 1;
+  color: white;
+  justify-content: center;
+}
