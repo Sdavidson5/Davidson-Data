@@ -1,5 +1,13 @@
-# Davidson-Data
-Open-Source
-Creating a statistical analysis for soccer coaches crafted by professional coaches. 
+DAVIDSON DATA
 
-Updating this tomorrow for the official case use. 
+A soccer data website that works for and with coaches to help shape the future of soccer analytics. 
+
+
+
+
+
+CONTRIBUTORS
+- Shane Davidson
+
+CONTACT
+- smdavidson12155@gmail.com
