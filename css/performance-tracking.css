@@ -70,26 +70,29 @@
 .video-clips{
   display: flex;
   flex:1;
-  height: 250px;
+  height: 200px;
   flex-direction: column;
+  border: solid 1px white;
+  background-color: #2C2C2C;
+  padding-top:50px;
 }
 
 .clip-button{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: black;
 }
 
 .clip-button-css{
   display: flex;
   justify-content: center;
+
 }
 
 .clip-savings{
   display: flex;
-  background-color: black;
-
+  background-color: #2C2C2C;
+  margin-top:15px;
 }
 
 .clips{
@@ -103,4 +106,61 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+}
+
+.player-actions{
+  border: solid 1px black;
+}
+
+.notes{
+  display: grid;
+  grid-template-rows: 50px 60px 140px;
+  color: whitesmoke;
+  height: 250px;
+  border: solid 1px white;
+  background-color: #2C2C2C;
+}
+
+.notes-title{
+  display: flex;
+  flex:1;
+  align-items: center;
+  justify-content: center;
+  color: whitesmoke;
+}
+
+.adding-notes{
+  border: solid 1px white;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.notes-button{
+  display: flex;
+  flex:1;
+  justify-content: center;
+  align-items: center;
+  width: 325px;
+}
+
+
+.stored-note{
+  display: grid;
+  grid-template-rows: 20px 120px;
+}
+
+.stored-notes-title{
+  display: flex;
+  flex:1;
+  color: whitesmoke;
+  justify-content: center;
+}
+
+.stored-notes{
+  display: flex;
+  flex:1;
+  align-items: center;
+  justify-content: center;
 }
