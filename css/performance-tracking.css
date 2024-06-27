@@ -62,7 +62,6 @@
 }
 
 .bottom-section{
-  background-color: lightpink;
   display: grid;
   grid-template-columns: 25vw 50vw 25vw;
 }
@@ -91,7 +90,6 @@
 
 .clip-savings{
   display: flex;
-  background-color: #2C2C2C;
   margin-top:15px;
 }
 
@@ -110,7 +108,35 @@
 
 .player-actions{
   border: solid 1px black;
+  display:grid;
+  grid-template-rows: 20px 230px;
 }
+
+.player-search{
+  display: flex;
+  flex:2;
+  justify-content: center;
+  align-items: center;
+}
+
+.action-buttons{
+  display: grid;
+  grid-template-columns: 170px 170px 170px;
+}
+
+.column-1{
+  border: solid 1px white;
+}
+
+.column-2{
+  border: solid 1px white;
+}
+
+.column-3{
+  border: solid 1px white;
+}
+
+
 
 .notes{
   display: grid;
@@ -118,7 +144,6 @@
   color: whitesmoke;
   height: 250px;
   border: solid 1px white;
-  background-color: #2C2C2C;
 }
 
 .notes-title{
