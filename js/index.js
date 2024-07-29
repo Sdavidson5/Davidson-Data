@@ -3,7 +3,7 @@ num[2] = 99;
 console.log(num);
 function getLastVaule(array)
 
-ok ok ok ok oh
+
 
     
 
