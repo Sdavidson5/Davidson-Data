@@ -1,11 +1,14 @@
-const x = [5,10,30,50,99];
-function getLastVaule(){
-    console.log(x);
-    const lastIndex = x[x.length-1];
-    return lastIndex
+function arraySwap(array){
+    const lastIndex = array.length - 1;
+    const firstIndex = array[0];
+    array[0] = lastIndex;
+    array[lastIndex];
+
+    return array
 }
 
-getLastVaule(x)
+console.log(arraySwap([1, 20, 22, 24, 5]));
+
 
 
 
