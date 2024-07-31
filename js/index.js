@@ -1,13 +1,18 @@
-function arraySwap(array){
-    const lastIndex = array.length - 1;
-    const firstIndex = array[0];
-    array[0] = lastIndex;
-    array[lastIndex];
 
-    return array
+function addOne(array) {
+    const result = [];
+    for (let i = 0; i < array.length; i++) {
+    result.push(array[i]+1);
+    return result;
+    }
 }
 
-console.log(arraySwap([1, 20, 22, 24, 5]));
+console.log(addOne([1,2,3]))
+
+
+
+
+    
 
 
 
