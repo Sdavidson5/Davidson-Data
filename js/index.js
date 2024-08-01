@@ -1,15 +1,12 @@
-
 function addOne(array) {
-    const result = [];
+    let array=[1,2,3];
     for (let i = 0; i < array.length; i++) {
-    result.push(array[i]+1);
-    return result;
+        const result = array[i]+1;
+        return console.log(result)
     }
 }
 
-console.log(addOne([1,2,3]))
-
-
+addOne(array)
 
 
     
