@@ -1,15 +1,22 @@
-function addOne(array) {
-    let array=[1,2,3];
-    for (let i = 0; i < array.length; i++) {
-        const result = array[i]+1;
-        return console.log(result)
-    }
-}
 
-addOne(array)
+let soup = 10;
+let burgers = 8;
+let ic = 5;
 
+let meal = 1*soup + 3*burgers +1*ic;
 
+console.log(meal/3);
     
+let toaster = 18.5;
+let shirts = 7.5;
+
+let total = toaster+shirts;
+console.log(total*1.2);
+
+
+
+
+
 
 
 
