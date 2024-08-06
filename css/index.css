@@ -1,11 +1,4 @@
 .body {
-  height: 100vh;
-  margin: 0;
-  background: url("images/brushedsteel.jpg") no-repeat center center fixed;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-family: Arial, sans-serif;
+  background-image: url('index-background.jpg');
+  background-size: contain;
 }
