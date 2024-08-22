@@ -8,5 +8,53 @@ body{
   border: solid 1px white;
   background-color: white;
   color:black;
-  text-align: center ;
+  text-align: center;
+  place-items: center;
+  height: 375px;
+  margin:12.5% 0% 12.5% 0%;
+
+  }
+
+  .box1{
+    border: solid 1px red;
+  }
+
+  .box2{
+    border: solid 1px red;
+  }
+
+  .box3{
+    background-color: red;
+    height: 100%;
+    width: 100%;
+  }
+
+  .b3-title{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    color:whitesmoke;
+    border: solid 1px whitesmoke;
+    padding:5px;
+    
+
+  }
+
+  .box4{
+    display: flex;
+    flex:1;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  
+  }
+
+  .b4-contact{
+    display: flex;
+    flex: 1;
+    border: solid 1px red;
+    justify-content: center;
+    align-items: center;
   }

@@ -1,21 +1,20 @@
-let name = 'shane';
+let hour = 23;
+let name ='shane';
 
-let coffee= 5;
-let bagel = 3;
-let soup = 9;
+if (hour >= 6 & hour <=12) {
+    console.log(`good morning ${name}!`)
+} else if( hour >=13 & hour <=17) {
+    console.log(`good afternoon ${name}!`)
+} else
+    console.log(`good night ${name}!`)
 
-let cost = (1*coffee+2*bagel+1*soup)*1.1;
+let age = 5;
+const isHoliday = true ;
 
-
-
-
-
-
-
-
-    
-
-
+if (age <=6 & isHoliday === false || age >= 65 & isHoliday === false) {
+    console.log(`Discount`)
+} else
+    console.log(`No discount`)
 
 
 
