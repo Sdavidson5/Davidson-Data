@@ -1,11 +1,10 @@
 body{
-  background-color: #c0c0c0;
+  background-color: #4f5b66;
 }
 
 .main-panel{
   display: grid;
-  grid-template-columns: 2fr 1fr 2fr 2fr;
-  border: solid 1px white;
+  grid-template-columns: 3fr 2fr 3fr 3fr;
   background-color: white;
   color:black;
   text-align: center;
@@ -16,17 +15,61 @@ body{
   }
 
   .box1{
+    display: flex;
+    flex:1;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #c3cad2;
+
+  }
+
+  .b1-title{
+    display: flex;
+    flex: 1;
+    height: 150px;
     border: solid 1px red;
+    justify-content: center;
+    align-items: center ;
+    margin-left:5px;
+    margin-right:5px;
+    font-size:larger;
+    word-spacing: 15px;
   }
 
   .box2{
+    display: flex;
+    flex:1;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #c3cad2;
+
+  }
+
+  .b2-name{
+    display: flex;
+    flex: 1;
+    height: 150px;
     border: solid 1px red;
+    justify-content: center;
+    align-items: center ;
+    margin-left:5px;
+    margin-right:5px;
+    font-size:larger;
+    word-spacing: 15px;
   }
 
   .box3{
+    display: flex;
+    flex:1;
     background-color: red;
     height: 100%;
     width: 100%;
+    align-items: center;
+    margin: ;
   }
 
   .b3-title{
@@ -38,7 +81,6 @@ body{
     border: solid 1px whitesmoke;
     padding:5px;
     
-
   }
 
   .box4{
@@ -48,7 +90,7 @@ body{
     width: 100%;
     align-items: center;
     justify-content: center;
-  
+    
   }
 
   .b4-contact{
@@ -57,4 +99,5 @@ body{
     border: solid 1px red;
     justify-content: center;
     align-items: center;
+    
   }
