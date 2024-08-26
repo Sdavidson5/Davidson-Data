@@ -46,6 +46,7 @@ body{
     justify-content: center;
     align-items: center;
     background-color: #c3cad2;
+    
 
   }
 
@@ -60,6 +61,18 @@ body{
     margin-right:5px;
     font-size:larger;
     word-spacing: 15px;
+    
+    
+  }
+
+  .b2-roy{
+    display: flex;
+    flex:1;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #007fff,black);
+    color:white;
+    
   }
 
   .box3{
@@ -69,7 +82,6 @@ body{
     height: 100%;
     width: 100%;
     align-items: center;
-    margin: ;
   }
 
   .b3-title{
