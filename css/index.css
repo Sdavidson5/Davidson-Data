@@ -87,6 +87,7 @@ body{
   .b3-title{
     display: flex;
     flex: 1;
+    height:150px;
     justify-content: center;
     align-items: center;
     color:whitesmoke;
@@ -100,16 +101,19 @@ body{
     flex:1;
     height: 100%;
     width: 100%;
-    align-items: center;
     justify-content: center;
-    
+    align-items: center;
+    background-color: #c3cad2;
   }
 
   .b4-contact{
     display: flex;
     flex: 1;
     border: solid 1px red;
+    height: 150px;
     justify-content: center;
-    align-items: center;
-    
+    align-items: end ;
+    margin-left:5px;
+    margin-right:5px;
+    font-size:large;
   }

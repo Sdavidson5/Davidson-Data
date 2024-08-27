@@ -16,6 +16,30 @@ if (age <=6 & isHoliday === false || age >= 65 & isHoliday === false) {
 } else
     console.log(`No discount`)
 
+let random = Math.random();
+
+console.log(random)
+let result = '';
+if (random<.5) {
+    result = 'heads'
+} else {
+    result = 'tails'
+}
+
+console.log(result)
+
+let guess = 'tails';
+
+if (result === guess) {
+    console.log('you win')
+} else {
+    console.log('you lose')
+}
+
+
+
+
+
 
 
 
