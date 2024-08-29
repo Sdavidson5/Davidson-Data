@@ -57,10 +57,41 @@ function convertToFahrenheit(degrees,unit) {
 
 convertToFahrenheit(52,'F')
 
-function convertLength(length, from, to) {
-    let km = 
+const basketball ={
+    price:2095,
+
+
 }
 
+console.log(basketball.price)
+
+basketball.price+=500;
+
+console.log(basketball.price)
+
+basketball["delivery-time"] = '3 days';
+
+console.log(basketball)
+
+function comparePrice(product1,product2) {
+    const product1={
+        name:'p1',
+        price:5,
+    }
+
+    const product2={
+        name:'p2',
+        price:12,
+    }
+
+    if (product1.price>product2.price) {
+        console.log('p1 is more expensive')
+    } else {
+        console.log('p2 is more expensive')
+    }
+}
+
+comparePrice()
 
 
 
