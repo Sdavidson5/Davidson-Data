@@ -5,11 +5,32 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Test</title>
         <link rel="stylesheet" href="css/test.css" />
-        <script src="js/test.js">
-            
-        </script>
     </head>
     <body>
-        <button class="hello">9a</button>
+        <button>9a</button>
+        <button class="bee">9b</button>
+        <br>
+        <button class="heads" onclick="
+        const headElement = document.querySelector('.answer');
+        headElement.textContent = 'Answer: you chose heads!';"
+        >Heads</button>
+        <button class="tails" onclick="
+        const tailElement = document.querySelector('.answer');
+        tailElement.textContent = 'Answer: you chose tails!';"
+        >Tails</button>
+        <br>
+        <p class="answer">Answer:</p>
+
+        <input placeholder="Name" class="name" onkeydown="">
+        <button onclick="
+        const inputElement = document.querySelector('.name');
+        const text= inputElement.value;
+        const nameElement = document.querySelector('.nameAnswer');
+        nameElement.textContent = `Your name is:${text}`"
+        >Submit</button>
+        <br>
+        <p class="nameAnswer">__________________</p>
+
+        <script src="js/test.js"></script>    
     </body>
 </html>
