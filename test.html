@@ -1,4 +1,4 @@
-no<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
@@ -20,13 +20,10 @@ no<!DOCTYPE html>
         >Tails</button>
         <br>
         <p class="answer">Answer:</p>
-5
-        <input placeholder="Name" class="name" onkeydown="">
+
+        <input placeholder="Name" class="name" onkeydown="nameInput()">
         <button onclick="
-        const inputElement = document.querySelector('.name');
-        const text= inputElement.value;
-        const nameElement = document.querySelector('.nameAnswer');
-        nameElement.textContent = `Your name is:${text}`"
+        nameInput()"
         >Submit</button>
         <br>
         <p class="nameAnswer">__________________</p>
