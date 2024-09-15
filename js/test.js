@@ -11,7 +11,7 @@ function nameInput() {
         const text= inputElement.value;
         const nameElement = document.querySelector('.nameAnswer');
         nameElement.textContent = `Your name is:${text}`
-    } else if(===''){
+    } else if( event ===''){
     nameElement.textContent = ``;
     }   
 }
