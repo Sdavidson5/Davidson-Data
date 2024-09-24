@@ -1,5 +1,11 @@
 body{
-  background-color: #4f5b66;
+  background-image: url(/images/stainless.png); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
 }
 
 .main-panel{

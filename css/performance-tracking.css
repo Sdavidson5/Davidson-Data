@@ -1,13 +1,11 @@
-.body {
+.html,body {
+  background-color: #2C2C2C;
   display: grid;
   grid-template-rows: 8% 65% 27%;
-  background-image: url('stainless.png');
-  background-size: cover; /* Ensure the image covers the entire page */
-  background-repeat: no-repeat; /* Prevent the image from repeating */
-  background-position: center center; /* Center the image */
-  background-attachment: fixed; /* Keep the background fixed during scroll */
-  margin: 0;
-  padding: 0;
+  max-width: 100%;
+  margin: 0px;
+  padding: 0px;
+   
 }
 
 .top-section {
@@ -192,4 +190,3 @@
   align-items: center;
   justify-content: center;
 }
-  
