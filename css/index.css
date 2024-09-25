@@ -6,52 +6,35 @@ body{
   background-attachment: fixed;
   margin: 0;
   padding: 0;
+  height: 100vh;
 }
 
 .main-panel{
-  display: grid;
-  grid-template-columns: 3fr 2fr 3fr 3fr;
-  background-color: white;
-  color:black;
-  text-align: center;
-  place-items: center;
-  height: 375px;
-  margin:12.5% 0% 12.5% 0%;
+  display: flex;
+  background-color:lightblue;
+  align-items: center;
+  height:100px;
 
   }
 
   .box1{
     display: flex;
     flex:1;
-    height: 100%;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    background-color: #c3cad2;
+    background-color:lightgrey 
 
   }
 
   .b1-title{
     display: flex;
     flex: 1;
-    height: 150px;
-    border: solid 1px red;
-    justify-content: center;
-    align-items: center ;
-    margin-left:5px;
-    margin-right:5px;
-    font-size:larger;
-    word-spacing: 15px;
+    background-color: lightgreen;
   }
 
   .box2{
     display: flex;
     flex:1;
-    height: 100%;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    background-color: #c3cad2;
+    
+    background-color:lightpink;
     
 
   }
@@ -59,14 +42,6 @@ body{
   .b2-name{
     display: flex;
     flex: 1;
-    height: 150px;
-    border: solid 1px red;
-    justify-content: center;
-    align-items: center ;
-    margin-left:5px;
-    margin-right:5px;
-    font-size:larger;
-    word-spacing: 15px;
     
     
   }
@@ -74,10 +49,6 @@ body{
   .b2-roy{
     display: flex;
     flex:1;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(to right, #007fff,black);
-    color:white;
     
   }
 
@@ -116,21 +87,11 @@ body{
   .box4{
     display: flex;
     flex:1;
-    height: 100%;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    background-color: #c3cad2;
+    
   }
 
   .b4-contact{
     display: flex;
     flex: 1;
-    border: solid 1px red;
-    height: 150px;
-    justify-content: center;
-    align-items: end ;
-    margin-left:5px;
-    margin-right:5px;
-    font-size:large;
+    
   }
