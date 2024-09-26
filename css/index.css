@@ -1,4 +1,6 @@
 body{
+  display: flex;
+  align-items: center;
   background-image: url(/images/stainless.png); 
   background-size: cover;
   background-position: center;
@@ -7,91 +9,64 @@ body{
   margin: 0;
   padding: 0;
   height: 100vh;
+  flex-direction: row;
 }
 
 .main-panel{
   display: flex;
+  flex:1;
   background-color:lightblue;
-  align-items: center;
-  height:100px;
-
+  height:45vh;
   }
 
-  .box1{
+.box1{
     display: flex;
-    flex:1;
-    background-color:lightgrey 
-
+    flex:2;
+    background-color:lightyellow; 
   }
 
   .b1-title{
-    display: flex;
-    flex: 1;
-    background-color: lightgreen;
+  
   }
 
   .box2{
     display: flex;
-    flex:1;
-    
-    background-color:lightpink;
-    
-
+    flex:2;
+    background-color:lightgreen ;
   }
 
   .b2-name{
-    display: flex;
-    flex: 1;
-    
-    
+  
   }
 
   .b2-roy{
-    display: flex;
-    flex:1;
     
   }
 
   .box3{
     display: flex;
-    flex:2;
+    flex:3;
     background-color: red;
-    height: 100%;
-    width: 100%;
-    align-items: center;
-    flex-direction: column;
-
   }
 
   .b3-title{
-    display: flex;
-    flex: 1;
-    width:90%;
-    justify-content: center;
-    align-items: center;
-    margin-top: 115px;
-    color:whitesmoke;
-    border: solid 1px whitesmoke;
-    padding:5px;
-    }
+    
+  }
+
   .b3-links-div{
-    display: flex;
-    flex: 1;
-    flex-direction: column;
+    
   }
 
   .b3-links{
-    color: whitesmoke;
+    
   }
 
   .box4{
     display: flex;
-    flex:1;
-    
+    flex:2;
+    background-color: lightpink;
   }
 
   .b4-contact{
-    display: flex;
-    flex: 1;
     
   }
