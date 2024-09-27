@@ -26,7 +26,15 @@ body{
   }
 
   .b1-title{
-  
+    display: flex;
+    border: 3px solid darkred;
+    flex:1;
+    justify-content: center;
+    align-items: center;
+    margin-top:25%;
+    margin-bottom:25%;
+    margin-right:5%;
+    margin-left:5%;
   }
 
   .box2{
