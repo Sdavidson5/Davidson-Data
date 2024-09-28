@@ -44,11 +44,15 @@ body{
   }
 
   .b2-name{
-  
-  }
-
-  .b2-roy{
-    
+    display: flex;
+    border: 3px solid darkred;
+    flex:1;
+    justify-content: center;
+    align-items: center;
+    margin-top:25%;
+    margin-bottom:25%;
+    margin-right:5%;
+    margin-left:5%;
   }
 
   .box3{
@@ -57,24 +61,34 @@ body{
     background-color: red;
   }
 
-  .b3-title{
-    
-  }
-
-  .b3-links-div{
-    
-  }
-
-  .b3-links{
-    
+  .b3-menu{
+    display: flex;
+    border: 3px solid darkred;
+    flex:1;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center ;
+    margin-top:5%;
+    margin-bottom:5%;
+    margin-right:5%;
+    margin-left:5%;
   }
 
   .box4{
     display: flex;
     flex:2;
-    background-color: lightpink;
+    background-color: lightblue;
   }
 
   .b4-contact{
-    
+    display: flex;
+    border: 3px solid darkred;
+    flex:1;
+    justify-content: center;
+    align-items:end;
+    margin-top:25%;
+    margin-bottom:25%;
+    margin-right:5%;
+    margin-left:5%;
+    color: black;
   }
