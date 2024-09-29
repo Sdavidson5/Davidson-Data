@@ -1,3 +1,4 @@
+/* This is basic js for notres adding button, will need rework when done
 const element = document.querySelector('button');
 console.log(element);
 
@@ -15,6 +16,7 @@ function nameInput() {
     nameElement.textContent = ``;
     }   
 }
+*/
 
 
 
