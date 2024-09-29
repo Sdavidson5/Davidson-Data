@@ -63,16 +63,33 @@ body{
 
   .b3-menu{
     display: flex;
-    border: 3px solid darkred;
+    border: 3px solid whitesmoke ;
     flex:1;
     flex-direction: column;
     align-items:center;
     justify-content: center ;
-    margin-top:5%;
-    margin-bottom:5%;
+    margin-top:17%;
+    margin-bottom:17%;
     margin-right:5%;
     margin-left:5%;
   }
+
+  .b3-the-formation{
+    font-size: 250%;
+    color: whitesmoke;
+  }
+
+  .b3-links{
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    transform: translateY(-20%);
+    font-size: 110%;
+    }
 
   .box4{
     display: flex;
