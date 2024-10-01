@@ -15,19 +15,24 @@ body{
 .main-panel{
   display: flex;
   flex:1;
-  background-color:lightblue;
   height:45vh;
+  background-image: url(/images/dark-ss.jpg); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
   }
 
 .box1{
-    display: flex;
-    flex:2;
-    background-color:lightyellow; 
+  display: flex;
+  flex:2;
   }
 
   .b1-title{
     display: flex;
-    border: 3px solid darkred;
+    border: 3px solid red;
     flex:1;
     justify-content: center;
     align-items: center;
@@ -37,15 +42,21 @@ body{
     margin-left:5%;
   }
 
+  .b1-dd-title{
+    font-size: 175%;
+    color: whitesmoke;
+  }
+
   .box2{
     display: flex;
     flex:2;
-    background-color:lightgreen ;
+
   }
 
   .b2-name{
     display: flex;
-    border: 3px solid darkred;
+    border: 3px solid red;
+    color:whitesmoke;
     flex:1;
     justify-content: center;
     align-items: center;
@@ -94,12 +105,11 @@ body{
   .box4{
     display: flex;
     flex:2;
-    background-color: lightblue;
   }
 
   .b4-contact{
     display: flex;
-    border: 3px solid darkred;
+    border: 3px solid red;
     flex:1;
     justify-content: center;
     align-items:end;
@@ -107,5 +117,5 @@ body{
     margin-bottom:25%;
     margin-right:5%;
     margin-left:5%;
-    color: black;
+    color: whitesmoke;
   }
