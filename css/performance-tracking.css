@@ -26,11 +26,39 @@ body{
   background-color: lightgreen;
 }
 
+
+
 .video-clips{
   display: flex;
   flex:3;
   background-color: lightgray;
   height: inherit;
+  flex-direction: column;
+}
+
+.video-clips-edit{
+  display: flex;
+  flex:1;
+  background-color: lightgoldenrodyellow;
+  align-items: center;
+}
+
+.video-clips-edit-input{
+  display: flex;
+  height: 5vh;
+  width: 30vw;
+}
+
+.video-clips-saved{
+  display: flex;
+  flex:1;
+  background-color: lightgreen;
+}
+
+.saved-clips{
+  display: flex;
+  flex:1;
+  height: ;
 }
 
 .player-actions{
