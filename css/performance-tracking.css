@@ -38,9 +38,10 @@ body{
 
 .video-clips-edit{
   display: flex;
-  flex:1;
+  height: ;
   background-color: lightgoldenrodyellow;
   align-items: center;
+  
 }
 
 .video-clips-edit-input{
@@ -58,7 +59,6 @@ body{
 .saved-clips{
   display: flex;
   flex:1;
-  height: ;
 }
 
 .player-actions{
