@@ -14,10 +14,18 @@ body{
 
 }
 
-.media-player{
+.main-media-player{
   display: flex;
   height:50vh;
   background-color: lightpink;
+}
+
+.media-player{
+  display: flex;
+  flex:1;
+  align-items: center;
+  justify-content: center;
+  border:1px solid black;
 }
 
 .action-panel{
