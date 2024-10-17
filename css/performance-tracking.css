@@ -89,6 +89,10 @@ body{
   align-items: center;
 }
 
+.notes-section-textarea{
+  width: 20vw;
+}
+
 .notes-storage{
   display: flex;
   flex:1;
