@@ -71,6 +71,65 @@ body{
   flex:4;
   background-color:darkgray;
   height: inherit;
+  flex-direction: column;
+}
+
+.pa-input{
+  display: flex;
+  flex:1;
+  background-color: lightcyan;
+  justify-content: center;
+}
+
+.pa-input-button{
+  height: 10px;
+}
+
+.pa-team{
+  display: flex;
+  flex:1;
+  background-color: lightseagreen;
+}
+
+.pa-team-name{
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.pa-action-buttons{
+  display: flex;
+  flex:3;
+  background-color: lightblue;
+}
+
+.pa-buttons{
+  display: flex;
+  flex: 1;
+  justify-content: center;
+
+}
+
+.pa-action-buttons-offense{
+  display:flex;
+  flex: 1;
+  background-color: lightcoral;
+  flex-direction: column;
+}
+
+.pa-action-buttons-defense{
+  display: flex;
+  flex: 1;
+  background-color: darkred;
+  flex-direction: column;
+}
+
+.pa-action-buttons-key{
+  display: flex;
+  flex: 1;
+  background-color: darkgreen;
+  flex-direction: column;
 }
 
 /*Final third of bottom section*/
@@ -98,6 +157,7 @@ body{
   flex:1;
   justify-content: center;
   align-items: flex-start;
-  border: solid 1px black;
+  background-color: lightgreen;
   padding-top: 3vh;
+  margin-bottom: 0;
 }
