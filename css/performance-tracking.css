@@ -150,28 +150,23 @@ body{
 .notes-section{
   display: flex;
   flex:3;
-  background-color: lightgray;
+  background-color: #006633;
+  color: #FFCC00;
   flex-direction: column;
   height: inherit;
 }
 
-.notes-section-input{
+#notes-section-input{
   display: flex;
   flex: 1;
-  justify-content: center;
-  align-items: center;
+  margin-top: 5vh;
+  border-radius: 7px;
+  text-align: center;
 }
 
-.notes-section-textarea{
-  width: 25vw;
-}
 
-#notes-storage{
+#notes-section-list{
   display: flex;
-  flex:1;
-  justify-content: center;
-  align-items: flex-start;
-  background-color: lightgreen;
-  padding-top: 3vh;
-  margin-bottom: 0;
+  flex: 3;
+  flex-direction: column;
 }
