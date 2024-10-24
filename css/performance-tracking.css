@@ -83,7 +83,6 @@ body{
 .player-actions{
   display: flex;
   flex:4;
-  background-color:darkgray;
   height: inherit;
   flex-direction: column;
 }
@@ -91,18 +90,20 @@ body{
 .pa-input{
   display: flex;
   flex:1;
-  background-color: lightcyan;
+  background-color: #006633;
   justify-content: center;
 }
 
-.pa-input-button{
-  height: 10px;
+#pa-input-button{
+  height: 5vh;
+  width: 25vw;
+  text-align: center;
 }
 
 .pa-team{
   display: flex;
   flex:1;
-  background-color: lightseagreen;
+  background-color:#006633;
 }
 
 .pa-team-name{
@@ -110,6 +111,7 @@ body{
   flex: 1;
   justify-content: center;
   align-items: center;
+  color:#FFCC00;
 }
 
 .pa-action-buttons{
@@ -121,8 +123,14 @@ body{
 .pa-buttons{
   display: flex;
   flex: 1;
-  justify-content: center;
+  justify-content:center;
+  align-items: center;
+}
 
+.pa-action-button-titles{
+  display: flex;
+  flex: 1;
+  justify-content: center;
 }
 
 .pa-action-buttons-offense{
@@ -130,6 +138,7 @@ body{
   flex: 1;
   background-color: lightcoral;
   flex-direction: column;
+
 }
 
 .pa-action-buttons-defense{
@@ -142,8 +151,13 @@ body{
 .pa-action-buttons-key{
   display: flex;
   flex: 1;
-  background-color: darkgreen;
+  background-color: lightblue;
   flex-direction: column;
+}
+
+.pa-action-buttons-stats{
+  display: flex;
+  height: 5vh;
 }
 
 /*Final third of bottom section*/
@@ -162,8 +176,8 @@ body{
   margin-top: 5vh;
   border-radius: 7px;
   text-align: center;
+  resize: none;
 }
-
 
 #notes-section-list{
   display: flex;
