@@ -14,7 +14,8 @@ body{
 .nav-bar-logo{
   display: flex;
   width: 25vw;
-  background-color: whitesmoke;
+  background-color: white;
+  justify-content: center;
 }
 
 a {
@@ -41,18 +42,64 @@ a:hover {
 .nav-bar-explore{
   display: flex;
   width: 25vw;
-  background-color: lightpink;
   align-items: center;
   justify-content: center;
-  
+  gap:10px;
 }
 
 .nav-bar-explore-search-button{
+  display: flex;
+  border: whitesmoke;
+  border-radius: 5px;
+}
 
+.nav-bar-explore-search-button-img{
+  display: flex;
+  flex: 1;
+  height: 4vh;
 }
 
 .nav-bar-explore-login{
   display: flex;
+  border-radius: 5px;
+  background-color: black;
+  color:whitesmoke;
+  height: 4vh;
+  width:9vw;
+  align-items: center;
+  justify-content: center;
+}
+.main{
+  display: flex;
+  flex:1;
+  flex-direction: row;
+  height: 85vh;
+}
+
+
+.main-left{
+  display: flex;
+  color:  #FFD700;
+  height: 85vh;
+  width:50vw;
+  align-items: center;
+  justify-content: center;
 
 }
+
+.main-right{
+  display: flex;
+  height: 85vh;
+  width:50vw;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-image{
+  display: flex;
+  max-width: auto;
+  height: 50vh;
+  border-radius: 10px;;
+}
+
 
