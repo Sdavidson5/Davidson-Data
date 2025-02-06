@@ -79,16 +79,27 @@ a:hover {
 
 .main-left{
   display: flex;
+  flex: 1;
   color:  #FFD700;
   height: 85vh;
   width:50vw;
   align-items: center;
   justify-content: center;
+  padding-left:5vw;
 
+}
+
+.mission-statement{
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  
 }
 
 .main-right{
   display: flex;
+  flex: 1;
   height: 85vh;
   width:50vw;
   align-items: center;

@@ -43,14 +43,13 @@ body{
     background-color: #1a1a1a;
   }
 
-  #media-player-image{
+#media-player-image{
     display: flex;
     height: 100%;
     width: auto;
-    
   }
   
-  #performance{
+  #portal{
     display: flex;
     flex: 1;
     justify-content: center;
