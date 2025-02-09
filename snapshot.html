@@ -18,12 +18,33 @@
 
     <!--Portal-->
     <div id="snapshot" >
+      <!--Return Btn-->
       <div id="snapshot-portal">
         <button id="portal-btn">Portal</button>
       </div>
+
+      <!--Editing Section-->
       <div id="snapshot-main">
-        <div id="snapshot-video"> <p>Hello world</p> </div>
-        <div id="snapshot-notes"> <p>Hello world</p> </div>
+
+        <!--Video editing section-->
+        <div id="snapshot-video">
+          <div class="container">
+            <h1>Video Clipper</h1>
+            <video id="main-video" controls>
+                <source src="your-video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <br>
+            <button id="clip-btn">Clip Last 5 Seconds</button>
+        </div>
+    
+        <div class="clip-container" id="clips"></div>
+        </div>
+
+        <!--Notes editing section-->
+        <div id="snapshot-notes"> 
+          
+        </div>
       </div>
     </div>
 
