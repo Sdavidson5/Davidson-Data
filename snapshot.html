@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Performance Tracking</title>
+    <title>Snapshot</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/snapshot.css" />
   </head>
 
@@ -13,7 +14,24 @@
 
     <!-- Main media player section -->
     <div class="main-media-player">
-      <div class="media-player"><img id="media-player-image" src="images/BHHS-logo.jpg" alt="Green & Gold BH Hawk"></div>
+      <div class="container">
+        <!-- Upload Section -->
+        <div id="uploadSection" class="upload-section">
+            <h2>Upload a Video</h2>
+            <input type="file" id="videoUpload" accept="video/*">
+        </div>
+
+        <!-- Video Player Section -->
+        <div id="videoSection" class="video-section hidden">
+            <video id="videoPlayer" controls></video>
+            <div class="controls">
+                <button onclick="playVideo()">▶ Play</button>
+                <button onclick="pauseVideo()">⏸ Pause</button>
+                <button onclick="restartVideo()">🔄 Restart</button>
+                <input type="range" id="seekBar" min="0" value="0" step="1">
+            </div>
+        </div>
+    </div>
     </div>
 
     <!--Portal-->
@@ -28,17 +46,8 @@
 
         <!--Video editing section-->
         <div id="snapshot-video">
-          <div class="container">
-            <h1>Video Clipper</h1>
-            <video id="main-video" controls>
-                <source src="your-video.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-            <br>
-            <button id="clip-btn">Clip Last 5 Seconds</button>
-        </div>
-    
-        <div class="clip-container" id="clips"></div>
+          
+  
         </div>
 
         <!--Notes editing section-->
